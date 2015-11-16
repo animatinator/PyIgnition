@@ -1,0 +1,129 @@
+<?xml version = "1.0"?>
+<?pyignition version = "1.000000"?>
+
+<effect>
+	<source>
+		<pos>(10, 10)</pos>
+		<initspeed>5.000000</initspeed>
+		<initdirection>2.356194</initdirection>
+		<initspeedrandrange>2.000000</initspeedrandrange>
+		<initdirectionrandrange>1.000000</initdirectionrandrange>
+		<particlesperframe>5</particlesperframe>
+		<particlelife>125</particlelife>
+		<genspacing>0</genspacing>
+		<drawtype>scaleline</drawtype>
+		<colour>(255, 255, 255)</colour>
+		<radius>0.000000</radius>
+		<length>10.000000</length>
+		<imagepath>None</imagepath>
+		<keyframes>
+		</keyframes>
+		<particlekeyframes>
+			<keyframe frame = "50">
+				<colour_r>0</colour_r>
+				<length>10.0</length>
+				<interpolationtype>linear</interpolationtype>
+				<radius>None</radius>
+				<colour_b>0</colour_b>
+				<colour_g>255</colour_g>
+			</keyframe>
+			<keyframe frame = "75">
+				<colour_r>255</colour_r>
+				<length>10.0</length>
+				<interpolationtype>linear</interpolationtype>
+				<radius>None</radius>
+				<colour_b>0</colour_b>
+				<colour_g>255</colour_g>
+			</keyframe>
+			<keyframe frame = "100">
+				<colour_r>0</colour_r>
+				<length>10.0</length>
+				<interpolationtype>linear</interpolationtype>
+				<radius>None</radius>
+				<colour_b>255</colour_b>
+				<colour_g>255</colour_g>
+			</keyframe>
+			<keyframe frame = "125">
+				<colour_r>0</colour_r>
+				<length>10.0</length>
+				<interpolationtype>linear</interpolationtype>
+				<radius>None</radius>
+				<colour_b>0</colour_b>
+				<colour_g>0</colour_g>
+			</keyframe>
+		</particlekeyframes>
+	</source>
+
+	<pointgravity>
+		<strength>1.000000</strength>
+		<strengthrandrange>0.000000</strengthrandrange>
+		<pos>(500, 380)</pos>
+		<keyframes>
+			<keyframe frame = "300">
+				<interpolationtype>linear</interpolationtype>
+				<pos_x>0</pos_x>
+				<strength>10.0</strength>
+				<strengthrandrange>None</strengthrandrange>
+				<pos_y>0</pos_y>
+			</keyframe>
+			<keyframe frame = "450">
+				<interpolationtype>linear</interpolationtype>
+				<pos_x>40</pos_x>
+				<strength>10.0</strength>
+				<strengthrandrange>None</strengthrandrange>
+				<pos_y>40</pos_y>
+			</keyframe>
+			<keyframe frame = "550">
+				<interpolationtype>linear</interpolationtype>
+				<pos_x>600</pos_x>
+				<strength>-2.0</strength>
+				<strengthrandrange>None</strengthrandrange>
+				<pos_y>480</pos_y>
+			</keyframe>
+			<keyframe frame = "600">
+				<interpolationtype>linear</interpolationtype>
+				<pos_x>600</pos_x>
+				<strength>-20.0</strength>
+				<strengthrandrange>None</strengthrandrange>
+				<pos_y>0</pos_y>
+			</keyframe>
+			<keyframe frame = "650">
+				<interpolationtype>linear</interpolationtype>
+				<pos_x>500</pos_x>
+				<strength>1.0</strength>
+				<strengthrandrange>None</strengthrandrange>
+				<pos_y>380</pos_y>
+			</keyframe>
+		</keyframes>
+	</pointgravity>
+
+	<directedgravity>
+		<strength>0.040000</strength>
+		<strengthrandrange>0.000000</strengthrandrange>
+		<direction>(1.000000, 0.000000)</direction>
+		<keyframes>
+			<keyframe frame = "300">
+				<direction_y>1</direction_y>
+				<direction_x>-0.5</direction_x>
+				<interpolationtype>linear</interpolationtype>
+				<strength>1.0</strength>
+				<strengthrandrange>None</strengthrandrange>
+			</keyframe>
+			<keyframe frame = "600">
+				<direction_y>-0.1</direction_y>
+				<direction_x>1.0</direction_x>
+				<interpolationtype>linear</interpolationtype>
+				<strength>1.0</strength>
+				<strengthrandrange>None</strengthrandrange>
+			</keyframe>
+			<keyframe frame = "650">
+				<direction_y>0</direction_y>
+				<direction_x>1</direction_x>
+				<interpolationtype>linear</interpolationtype>
+				<strength>0.04</strength>
+				<strengthrandrange>None</strengthrandrange>
+			</keyframe>
+		</keyframes>
+	</directedgravity>
+
+</effect>

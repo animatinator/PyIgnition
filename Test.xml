@@ -1,0 +1,127 @@
+<?xml version = "1.0"?>
+<?pyignition version = "1.0"?>
+
+<effect>
+	<source>
+		<pos>(300, 300)</pos>
+		<initspeed>20.000000</initspeed>
+		<initdirection>19.675000</initdirection>
+		<initspeedrandrange>0.000000</initspeedrandrange>
+		<initdirectionrandrange>0.500000</initdirectionrandrange>
+		<particlesperframe>3</particlesperframe>
+		<particlelife>50</particlelife>
+		<genspacing>0</genspacing>
+		<drawtype>scaleline</drawtype>
+		<colour>(255, 200, 200)</colour>
+		<radius>0.000000</radius>
+		<length>20.000000</length>
+		<imagepath>None</imagepath>
+		<keyframes>
+			<keyframe frame = "120">
+				<initdirection>18.78</initdirection>
+				<pos_x>None</pos_x>
+				<pos_y>None</pos_y>
+				<genspacing>None</genspacing>
+				<particlesperframe>None</particlesperframe>
+				<initdirectionrandrange>None</initdirectionrandrange>
+				<interpolationtype>linear</interpolationtype>
+				<initspeedrandrange>None</initspeedrandrange>
+				<initspeed>None</initspeed>
+			</keyframe>
+			<keyframe frame = "120">
+				<initdirection>18.56</initdirection>
+				<pos_x>300</pos_x>
+				<pos_y>300</pos_y>
+				<genspacing>0</genspacing>
+				<particlesperframe>3</particlesperframe>
+				<initdirectionrandrange>0.5</initdirectionrandrange>
+				<interpolationtype>linear</interpolationtype>
+				<initspeedrandrange>0.0</initspeedrandrange>
+				<initspeed>20.0</initspeed>
+			</keyframe>
+			<keyframe frame = "121">
+				<initdirection>18.781</initdirection>
+				<pos_x>None</pos_x>
+				<pos_y>None</pos_y>
+				<genspacing>None</genspacing>
+				<particlesperframe>None</particlesperframe>
+				<initdirectionrandrange>None</initdirectionrandrange>
+				<interpolationtype>linear</interpolationtype>
+				<initspeedrandrange>None</initspeedrandrange>
+				<initspeed>None</initspeed>
+			</keyframe>
+			<keyframe frame = "122">
+				<initdirection>19.003</initdirection>
+				<pos_x>None</pos_x>
+				<pos_y>None</pos_y>
+				<genspacing>None</genspacing>
+				<particlesperframe>None</particlesperframe>
+				<initdirectionrandrange>None</initdirectionrandrange>
+				<interpolationtype>linear</interpolationtype>
+				<initspeedrandrange>None</initspeedrandrange>
+				<initspeed>None</initspeed>
+			</keyframe>
+			<keyframe frame = "123">
+				<initdirection>19.226</initdirection>
+				<pos_x>None</pos_x>
+				<pos_y>None</pos_y>
+				<genspacing>None</genspacing>
+				<particlesperframe>None</particlesperframe>
+				<initdirectionrandrange>None</initdirectionrandrange>
+				<interpolationtype>linear</interpolationtype>
+				<initspeedrandrange>None</initspeedrandrange>
+				<initspeed>None</initspeed>
+			</keyframe>
+			<keyframe frame = "124">
+				<initdirection>19.45</initdirection>
+				<pos_x>None</pos_x>
+				<pos_y>None</pos_y>
+				<genspacing>None</genspacing>
+				<particlesperframe>None</particlesperframe>
+				<initdirectionrandrange>None</initdirectionrandrange>
+				<interpolationtype>linear</interpolationtype>
+				<initspeedrandrange>None</initspeedrandrange>
+				<initspeed>None</initspeed>
+			</keyframe>
+			<keyframe frame = "125">
+				<initdirection>19.675</initdirection>
+				<pos_x>None</pos_x>
+				<pos_y>None</pos_y>
+				<genspacing>None</genspacing>
+				<particlesperframe>None</particlesperframe>
+				<initdirectionrandrange>None</initdirectionrandrange>
+				<interpolationtype>linear</interpolationtype>
+				<initspeedrandrange>None</initspeedrandrange>
+				<initspeed>None</initspeed>
+			</keyframe>
+		</keyframes>
+		<particlekeyframes>
+		</particlekeyframes>
+	</source>
+	<source>
+		<pos>(300, 300)</pos>
+		<initspeed>1.000000</initspeed>
+		<initdirection>0.000000</initdirection>
+		<initspeedrandrange>0.900000</initspeedrandrange>
+		<initdirectionrandrange>3.141593</initdirectionrandrange>
+		<particlesperframe>1</particlesperframe>
+		<particlelife>300</particlelife>
+		<genspacing>3</genspacing>
+		<drawtype>image</drawtype>
+		<colour>(0, 0, 0)</colour>
+		<radius>0.000000</radius>
+		<length>0.000000</length>
+		<imagepath>spark.png</imagepath>
+		<keyframes>
+		</keyframes>
+		<particlekeyframes>
+		</particlekeyframes>
+	</source>
+	<directedgravity>
+		<strength>0.050000</strength>
+		<strengthrandrange>0.000000</strengthrandrange>
+		<direction>(0.000000, 1.000000)</direction>
+		<keyframes>
+		</keyframes>
+	</directedgravity>
+</effect>

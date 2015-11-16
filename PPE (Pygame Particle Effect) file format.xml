@@ -1,0 +1,101 @@
+<?xml version = "1.0"?>
+<?pyignition version = "1.0"?>
+
+<effect>
+<!-- This represents a ParticleEffect class -->
+	<source>
+	<!-- This is a ParticleSource - all variables are stored here -->
+		<pos>(300, 300)</pos>
+		<initspeed>10</initspeed>
+		<initdirection>3.141592653</initdirection>
+		<initspeedrandrange>10</initspeedrandrange>
+		<initdirectionrandrange>0.0</initdirectionrandrange>
+		<particlesperframe>5</particlesperframe>
+		<particlelife>1000</particlelife>
+		<genspacing>0</genspacing>
+		<drawtype>point</drawtype>
+		<!-- drawtype can be any of:
+		-point
+		-circle
+		-line
+		-scaleline
+		-bubble
+		-image
+		These are replaced with the appropriate constants when loaded -->
+		<colour>(100, 200, 100)</colour>
+		<radius>3.0</radius>
+		<length>3.0</length>
+		<imagepath>Raves.jpg</imagepath>
+		<keyframes>
+		<!-- Note that the keyframe for frame zero is automatically created on ParticleSource
+		initialisation, and so does not need to be defined here -->
+			<keyframe frame = "30">
+				<pos>None</pos>
+				<!-- Although keyframes shown in this example file omit several variables, in the
+				actual implementation it is more likely that all variables will be present and will
+				use 'None' for undefined ones as demonstrated here -->
+				<initspeed>None</initspeed>
+				<initdirection>None</initdirection>
+				<initspeedrandrange>None</initspeedrandrange>
+				<initdirectionrandrange>3.0</initdirectionrandrange>
+				<particlesperframe>1</particlesperframe>
+				<particlelife>10</particlelife>
+				<genspacing>100</genspacing>
+				<interpolationtype>linear</interpolationtype>
+				<!-- Can be either linear or cosine -->
+			</keyframe>
+			<keyframe frame= "35">
+				<colour>(0, 0, 0)</colour>
+				<interpolationtype>cosine</interpolationtype>
+			</keyframe>
+		</keyframes>
+		<particlekeyframes>
+		<!-- (Exclusive to ParticleSource objects) -->
+		<!-- As before, note that no keyframe is defined for frame 0 as this is automatically
+		created anyway -->
+			<keyframe frame = "40">
+				<length>1000.0</length>
+			</keyframe>
+		</particlekeyframes>
+	</source>
+	
+	<source>
+	<!-- This is another ParticleSource -->
+		<pos>(100, 250)</pos>
+		<initspeed>40</initspeed>
+		<initdirection>3.141592653</initdirection>
+		<initspeedrandrange>1000</initspeedrandrange>
+		<initdirectionrandrange>10.0</initdirectionrandrange>
+		<particlesperframe>5000</particlesperframe>
+		<particlelife>1</particlelife>
+		<genspacing>50</genspacing>
+		<drawtype>bubble</drawtype>
+		<colour>(250, 100, 109)</colour>
+		<radius>30.0</radius>
+		<length>0.09</length>
+		<imagepath>None</imagepath>
+		<keyframes>
+			<keyframe frame = "30">
+				<initspeed>None</initspeed>
+				<initdirection>None</initdirection>
+				<initspeedrandrange>None</initspeedrandrange>
+				<initdirectionrandrange>3.0</initdirectionrandrange>
+				<particlesperframe>1</particlesperframe>
+				<particlelife>10</particlelife>
+				<genspacing>100</genspacing>
+				<interpolationtype>linear</interpolationtype>
+			</keyframe>
+			<keyframe frame= "35">
+				<colour>(0, 0, 0)</colour>
+				<interpolationtype>cosine</interpolationtype>
+			</keyframe>
+		</keyframes>
+		<particlekeyframes>
+			<keyframe frame = "40">
+				<length>1000.0</length>
+			</keyframe>
+		</particlekeyframes>
+	</source>
+	
+	<!-- All other object types follow the same pattern as the ParticleSource objects shown above -->
+</effect>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+
+ <head>
+  <title>Particle Test</title>
+  <author>Doove & Joomz</author>
+  <info>A little particle test down in the park!</info>
+  <link rel="stylesheet" href="style.css" type="text/css"/>
+ </head>
+
+ <filename>
+
+  <ParticleSource>
+  
+   <properties>
+     <drawtype>0</drawtype>
+     <particleimage>"test.jpg"</particleimage>
+   </properties>
+
+   <keyframes>
+
+   <keyframe id=0>
+    <initspeed>20</initspeed>
+    <initdirection>3.141</initdirection>
+    <particlesperframe>3</particlesperframe>
+   </keyframe>
+
+   <keyframe id=200>
+    <initspeed>2</initspeed>
+    <initdirection>0</initdirection>
+    <particlesperframe>50</particlesperframe>
+   </keyframe>
+
+   </keyframes>
+
+  </ParticleSource>
+ 
+  <DirectedGravity>   
+    <keyframes>
+      <keyframe id=0>
+        <pos>[200, 200]</keyframe>
+        <direction>[3, 1]</direction>
+        <strength>20</strength>
+      </keyframe>
+    </keyframes>
+  </DirectedGravity>
+
+ </filename>
+
+</xml>

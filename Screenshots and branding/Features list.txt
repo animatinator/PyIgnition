@@ -1,0 +1,19 @@
+-Fully customisable particle sources:
+	-Particles' starting velocities and directions can be completely controlled, and you can set random ranges for both
+	-Particles per generation, and the spacing between generations, can also be easily altered
+
+-Fully customisable particles:
+	-Six different drawtypes are available: point, line (of fixed length), scaleline (which scales with velocity), circle, bubble (an unfilled circle) and image (for which you can specify an arbitrary image file)
+	-All parameters are fully customisable, from line length to bubble colour, and you can also change the particle's drawtype in real time
+
+-Powerful physics system:
+	-Particles' paths can be influenced by an unlimited number of gravities, which can be either directed (constant in one direction), point gravity (following an inverse square law around a point) or vortex gravity (spins particles around itself whilst drawing them in). Gravity strengths, positions and directions are modifiable and you can set a random range for strength to simulate effects like blusterous wind
+	-Obstacles can be added to simulations which particles will deflect off, making effects more realistic as they appear to interact with their environments. Obstacles can be either circles, rectangles or boundary lines, all of which have fully customisable parameters
+
+-Highly versatile keyframe system:
+	-Pretty much every single parameter can be individually keyframed in real time, allowing you to create incredibly complex effects
+	-Particle keyframes can be created with sources so that they will be copied to every particle the source produces. The effects of these keyframes are then pre-calculated by the source so they needn't be worked out for every single particle, resulting in good performance even with very elaborate animations
+	-Further optimisations include a function for consolidating all keyframes from past frames into one single keyframe on the current frame, which when used regularly will significantly speed up animations involving large numbers of keyframes - especially when keyframes are being constantly added by the program
+	-Keyframes can use either linear or cosine interpolation, and can switch between the two mid-animation if needed
+
+-Unlimited number of independently-managed particle effects, each using its own sources, gravities and obstacles
