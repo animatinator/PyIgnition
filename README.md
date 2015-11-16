@@ -3,3 +3,7 @@ As anyone who has tried it will know, writing particle effects for games is ofte
 Screenshots: https://picasaweb.google.com/102839033876058941726/PyIgnitionScreenshots
 
 Original repository: https://launchpad.net/pyignition
+
+Documentation project: https://code.launchpad.net/~animatinator/pyignition/documentation
+
+Documentation PDF: http://bazaar.launchpad.net/~animatinator/pyignition/documentation/download/head:/instructionmanual1.0-20100712190259-2fdt7zo7l261fx4v-1/Instruction%20manual%201.0.pdf
